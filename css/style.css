@@ -29,10 +29,12 @@
   text-shadow: 2px 2px black;
 }
 body {
-  background: url(https://cdn.hipwallpaper.com/i/34/77/30HP2S.jpg) repeat;
+  background: url(https://images.pexels.com/photos/1921336/pexels-photo-1921336.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
+  no-repeat rgba(5, 22, 29, 0.993);
   background-position: top;
   width: 960px;
   margin: 0 auto;
+  padding: 0;
 }
 .menük a {
   height: 100%;
@@ -92,12 +94,12 @@ body {
 }
 .nov-selection a {
   color: rgba(0, 0, 0, 0.8);
-  font-family: "Roboto";;
+  font-family: "Roboto";
   box-shadow: 0 0 5px rgb(233, 136, 10);
   background-color: rgba(243, 167, 2, 0.5);
   text-shadow: 2px 2px rgba(245, 222, 179, 0.5);
   font-size: 45px;
-  text-decoration: none;;
+  text-decoration: none;
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 25px;
@@ -108,19 +110,18 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   border: solid 1px wheat;
-  transition: .3s ease;
-  background-color:rgb(206, 177, 84);
+  transition: 0.3s ease;
+  background-color: rgb(206, 177, 84);
   text-shadow: 2px 2px rgba(245, 222, 179, 1);
 }
 .nov-selection a:not(:hover) {
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 div.nov-selection {
   margin-top: 50px;
-  text-align: center
+  text-align: center;
 }
 .nov-list {
-line-height: 1.7;
-word-spacing: 1000px;
-
+  line-height: 1.7;
+  word-spacing: 1000px;
 }
